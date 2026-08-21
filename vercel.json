@@ -1,11 +1,11 @@
 {
   "services": {
     "frontend": {
-      "root": "frontend",
+      "root": "ablespace-task-management/frontend",
       "framework": "nextjs"
     },
     "backend": {
-      "root": "backend"
+      "root": "ablespace-task-management/backend"
     }
   },
   "rewrites": [
