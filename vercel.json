@@ -5,13 +5,12 @@
       "framework": "nextjs"
     },
     "backend": {
-      "root": "ablespace-task-management/backend",
-      "framework": "nestjs"
+      "root": "ablespace-task-management/backend"
     }
   },
   "rewrites": [
     {
-      "source": "/api/backend/(.*)",
+      "source": "/api(/.*)?",
       "destination": {
         "type": "service",
         "service": "backend"
